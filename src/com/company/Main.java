@@ -6,31 +6,6 @@ import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
-/*public class Main {
-
-    public static void main(String[] args) {
-        *//*Scanner s = new Scanner(System.in);
-        int k = Integer.parseInt(s.nextLine());
-        String[] loo = s.nextLine().split(" ");
-        int[] log = Arrays.stream(loo)
-                          .mapToInt(Integer::parseInt)
-                          .toArray();
-        String find = String.valueOf(Arrays.stream(log)
-                                           .max()
-                                           .getAsInt());
-        System.out.println( java.util.Arrays.asList(loo).indexOf(find));*//*
-
-       *//* System.out.println(Arrays.stream(new Scanner(System.in)
-                  .nextLine()
-                  .split(" "))
-                  .map(Level::parse)
-                  .mapToInt(Level::intValue)
-                  .max()
-                  .toString());*//*
-
-    }
-
-}*/
 class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -274,60 +249,4 @@ class School {
         this.allAve = allAve;
     }
 }
-
-
-/*class ChristmasTree {
-
-    private String color;
-
-    public ChristmasTree(String color) {
-        this.color = color;
-    }
-
-    public void putTreeTopper(String color) {
-        ChristmasTree christmasTree = new ChristmasTree(this.color);
-        ChristmasTree.TreeTopper treeTopper = christmasTree.new TreeTopper(color);
-        treeTopper.sparkle();
-    }
-
-    class TreeTopper {
-
-        private String color;
-
-        public TreeTopper(String color) {
-            this.color = color;
-        }
-
-        public void sparkle() {
-            *//*System.out.println("Sparkling " + this.color + " tree topper looks stunning with " + ChristmasTree.this.color + " Christmas tree!");*//*
-            *//*String date = "Н-1159. 23.11.2006";
-            date = date.replace("ж", "").trim();
-            if(date.length() > 10) {
-                date = date.substring(date.length() - 10);
-            }
-            System.out.println(date);*//*
-
-            StringBuilder idx = new StringBuilder("KZ21PRE");
-            String appId = "555";
-            for (int i = 0; i < (8 - appId.length()); i++) {
-                idx.append("0");
-            }
-            String finished = idx + appId;
-            System.out.println(finished);
-            appId = null;
-            System.out.println(appId);
-            System.out.println(Long.parseLong("00000555"));
-        }
-    }
-}*/
-
-// this code should work
-/*class CreateHoliday {
-
-    public static void main(String[] args) {
-
-        ChristmasTree christmasTree = new ChristmasTree("green");
-        christmasTree.putTreeTopper("silver");
-    }
-}*/
 
